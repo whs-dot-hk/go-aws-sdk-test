@@ -1,5 +1,11 @@
 Follow along
 
+## Install go
+https://golang.org/doc/install#install
+
+## Install awscli
+https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html#cliv2-linux-install
+
 ## Configure aws
 
 Enter `us-east-1` for default region name
