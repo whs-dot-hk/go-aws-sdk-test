@@ -65,6 +65,11 @@ scp -i "$key_name.pem" ubuntu@$public_dns_name:/home/ubuntu/client1.ovpn .
 sed '/verb 3/a script-security 2\nup /etc/openvpn/update-resolv-conf\ndown /etc/openvpn/update-resolv-conf' client1.ovpn > client1_2.ovpn
 $ ls -l my\ openvpn\ key.pem
 -r--------. 1 whs whs 1670 Apr 13 21:09 'my openvpn key.pem'
+```
+
+You will need to accept the ecdsa key by enter `yes`
+
+```
 $ ./install_once.sh
 ```
 
