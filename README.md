@@ -1,3 +1,5 @@
+Follow along
+
 ## Configure aws
 
 Enter `us-east-1` for default region name
