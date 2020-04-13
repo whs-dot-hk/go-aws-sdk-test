@@ -42,6 +42,9 @@ $ sed -i -e 's|^public_dns_name=.*$|public_dns_name='$PUBLIC_DNS_NAME'|g' instal
 ```
 
 ### Update key name
+
+We created a key pair with the name `my openvpn key` before
+
 ```
 $ KEY_NAME="my openvpn key"
 $ sed -i -e 's|^key_name=.*$|key_name="'"$KEY_NAME"'"|g' install_once.sh
