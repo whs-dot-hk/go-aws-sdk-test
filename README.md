@@ -25,7 +25,7 @@ Created my openvpn key.pem
 ## Create server
 
 ```
-$ go run main.go create server "my-openvpn-server" --key "my openvpn key"
+$ go run main.go create server my-openvpn-server --key "my openvpn key"
 Created stack my-openvpn-server
 PUBLIC_DNS_NAME=ec2-3-221-4-14.compute-1.amazonaws.com
 ```
