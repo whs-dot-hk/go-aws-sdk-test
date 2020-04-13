@@ -53,6 +53,9 @@ $ sed -i -e 's|^key_name=.*$|key_name="'"$KEY_NAME"'"|g' install_once.sh
 ```
 
 ### Run `install_once.sh`
+
+Check that the files are in place
+
 ```
 $ cat install_once.sh
 #!/bin/sh
@@ -68,6 +71,8 @@ sed '/verb 3/a script-security 2\nup /etc/openvpn/update-resolv-conf\ndown /etc/
 $ ls -l my\ openvpn\ key.pem
 -r--------. 1 whs whs 1670 Apr 13 21:09 'my openvpn key.pem'
 ```
+
+Then run `install_once.sh`
 
 You will need to accept the ecdsa key by enter `yes`
 
