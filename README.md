@@ -1,3 +1,5 @@
+![alt text](dnsleaktest.png "Dns leak test")
+
 Follow along
 
 ## Install go
