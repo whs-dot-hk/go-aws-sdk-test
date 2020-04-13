@@ -33,6 +33,9 @@ PUBLIC_DNS_NAME=ec2-3-221-4-14.compute-1.amazonaws.com
 ## Install openvpn on server
 
 ### Update public dns name
+
+Copy the last line of the previous output and paste it here
+
 ```
 $ PUBLIC_DNS_NAME=ec2-3-221-4-14.compute-1.amazonaws.com
 $ sed -i -e 's|^public_dns_name=.*$|public_dns_name='$PUBLIC_DNS_NAME'|g' install_once.sh
